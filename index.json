@@ -1,0 +1,27 @@
+data = {
+    "schedule": {
+      "time": [
+        //[start time, end time]
+        ["1:30","2:20"],
+        ["13:09","14:59"],
+        ["00:00","99:99"]//it mentions all times of day, so if there is nothing scheduled then this is the default.
+      ],
+      "frameName": [
+        //based on the position of the time, the name of the frame or frames is called
+        ["1"],
+        ["8"],
+        ["8"]
+      ]
+    },
+    "frame": [
+        // the frame's name and it's parts [name, image file, url]
+        ["1","vertTest.bmp",""],
+        ["2","vertTest.bmp","test.txt"],
+        ["3","hortTest.bmp",""],
+        ["4","hortTest.bmp","test.txt"],
+        ["5","longTest.bmp",""],
+        ["6","longTest.bmp","test.txt"],
+        ["7","","test.txt"],
+        ["8","","weather.html"]
+    ]
+  }

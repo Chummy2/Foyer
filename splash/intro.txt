@@ -1,0 +1,3 @@
+- Welcome to SICTC Frames!
+- This program will take approximately 1 minuite to start.
+- This screen will apere whenever you update the frames index.
